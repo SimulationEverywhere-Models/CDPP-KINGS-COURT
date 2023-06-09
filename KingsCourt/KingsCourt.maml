@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDPlusPlus_Builder_Version_1.0.0>
+  <top>
+    <components> playerCount@PlayerCount player1@Player1 player2@Player2 playerKing@PlayerKing player3@Player3&#xd;</components>
+    <out> MISS&#xd;</out>
+    <in> NEW&#xd;</in>
+    <Link> PLAY@playerCount PLAY@player1&#xd;</Link>
+    <Link> PLAY@playerCount PLAY@player2&#xd;</Link>
+    <Link> PLAY@playerCount PLAY@player3&#xd;</Link>
+    <Link> PLAY@playerCount PLAY@playerKing&#xd;</Link>
+    <Link> BB2@player1 BB2@player2&#xd;</Link>
+    <Link> BB1@player2 BB1@player1&#xd;</Link>
+    <Link> BB3@player1 BB3@player3&#xd;</Link>
+    <Link> BB1@player3 BB1@player1&#xd;</Link>
+    <Link> BBK@player1 BBK@playerKing&#xd;</Link>
+    <Link> BB1@playerKing BB1@player1&#xd;</Link>
+    <Link> BB3@player2 BB3@player3&#xd;</Link>
+    <Link> BB2@player3 BB2@player2&#xd;</Link>
+    <Link> BBK@player2 BBK@playerKing&#xd;</Link>
+    <Link> BB2@playerKing BB2@player2&#xd;</Link>
+    <Link> BBK@player3 BBK@playerKing&#xd;</Link>
+    <Link> BB3@playerKing BB3@player3&#xd;</Link>
+    <Link> NEW NEW@playerCount&#xd;</Link>
+    <Link> MISS_Out@playerKing MISS4@playerCount&#xd;</Link>
+    <Link> MISS_Out@playerKing MISS@player1&#xd;</Link>
+    <Link> MISS_Out@playerKing MISS@player2&#xd;</Link>
+    <Link> MISS_Out@playerKing MISS@player3&#xd;</Link>
+    <Link> MISS_Out@playerKing MISS&#xd;</Link>
+    <Link> MISS_Out@player3 MISS3@playerCount&#xd;</Link>
+    <Link> MISS_Out@player3 MISS@player1&#xd;</Link>
+    <Link> MISS_Out@player3 MISS@player2&#xd;</Link>
+    <Link> MISS_Out@player3 MISS@playerKing&#xd;</Link>
+    <Link> MISS_Out@player3 MISS&#xd;</Link>
+    <Link> MISS_Out@player2 MISS2@playerCount&#xd;</Link>
+    <Link> MISS_Out@player2 MISS@player1&#xd;</Link>
+    <Link> MISS_Out@player2 MISS@player3&#xd;</Link>
+    <Link> MISS_Out@player2 MISS@playerKing&#xd;</Link>
+    <Link> MISS_Out@player2 MISS&#xd;</Link>
+    <Link> MISS_Out@player1 MISS1@playerCount&#xd;</Link>
+    <Link> MISS_Out@player1 MISS@player3&#xd;</Link>
+    <Link> MISS_Out@player1 MISS@player2&#xd;</Link>
+    <Link> MISS_Out@player1 MISS@playerKing&#xd;</Link>
+    <Link> MISS_Out@player1 MISS&#xd;</Link>
+  </top>
+</CDPlusPlus_Builder_Version_1.0.0>

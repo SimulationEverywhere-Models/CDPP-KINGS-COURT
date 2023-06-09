@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDPlusPlus_Builder_Version_1.0.0>
+  <top>
+    <components> kc@KCQueue&#xd;</components>
+    <out> NEW&#xd;</out>
+    <in> IN&#xd;</in>
+    <in> MISS &#xd;</in>
+    <Link> IN IN@kc&#xd;</Link>
+    <Link> MISS MISS@kc&#xd;</Link>
+    <Link> NEW@kc NEW&#xd;</Link>
+  </top>
+</CDPlusPlus_Builder_Version_1.0.0>

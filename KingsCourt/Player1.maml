@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDPlusPlus_Builder_Version_1.0.0>
+  <top>
+    <components> player1@Player1&#xd;</components>
+    <out> BB2&#xd;</out>
+    <out> BB3&#xd;</out>
+    <out> BBK&#xd;</out>
+    <out> MISS_Out&#xd;</out>
+    <in> PLAY&#xd;</in>
+    <in> MISS &#xd;</in>
+    <in> BB1&#xd;</in>
+    <Link> PLAY PLAY@player1&#xd;</Link>
+    <Link> BB1 BB1@player1&#xd;</Link>
+    <Link> MISS MISS@player1&#xd;</Link>
+    <Link> MISS_Out@player1 MISS_Out&#xd;</Link>
+    <Link> BB2@player1 BB2&#xd;</Link>
+    <Link> BB3@player1 BB3&#xd;</Link>
+    <Link> BBK@player1 BBK&#xd;</Link>
+  </top>
+</CDPlusPlus_Builder_Version_1.0.0>
